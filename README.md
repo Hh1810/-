@@ -1,1 +1,131 @@
-# -
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的學習歷程</title>
+  <style>
+    :root {
+      --main-green: #a8d5ba;
+      --light-green: #e6f3ea;
+      --text-color: #333;
+      --card-radius: 20px;
+      --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      --font-main: 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--light-green);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--main-green);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+      border-bottom: 5px solid #8bbd9e;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      background: white;
+      border-radius: var(--card-radius);
+      box-shadow: var(--card-shadow);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+
+    section h2 {
+      border-left: 6px solid var(--main-green);
+      padding-left: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .links a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #2b7a4b;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .ig-tagline {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #2b7a4b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>我的學習歷程網站</h1>
+    <p>清新簡約．綠意風格</p>
+    <div class="ig-tagline">
+      🎓 觀音高中二年級｜🎸 吉他社副社長＆活動長｜📚 自然科愛好者｜🏸 羽球｜🏊‍♀️ 游泳｜🧠 細心努力派
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section id="intro">
+      <h2>自我介紹</h2>
+      <p>你好，我是觀音高中的二年級學生，目前正一步步累積自己的學習經驗與成長歷程。我對自然科特別有興趣，也喜歡游泳和羽球這類能讓人放鬆又挑戰自我的運動。</p>
+
+      <p>在課外活動方面，我是吉他社的副社長兼活動長，除了協助社團運作，也負責規劃各項活動與表演，例如社課內容安排、社內成果展、與其他學校社團的聯合演出等等。這段經驗讓我學會了如何分工合作、溝通協調，也讓我更勇於主動承擔責任。</p>
+
+      <p>我是一個細心、善於傾聽的人，做事前會多思考，也會不斷檢查細節，希望把每一件事做到最好。雖然有時會緊張，但我相信努力能讓我更有自信。</p>
+
+      <p>這個網站是我專屬的學習歷程空間，紀錄著我在高中階段的努力與成果，也希望透過這個平台更了解自己、展現自己。</p>
+    </section>
+
+    <section id="works">
+      <h2>學習成果呈現</h2>
+      <div class="links">
+        <a href="https://www.canva.com/design/DAGeJvMDf5M/5D7M80-QbnMMqQCjXIkkiQ/view?utm_content=DAGeJvMDf5M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf07d9de471" target="_blank">📎 幹部經歷1 PDF</a>
+        <a href="https://www.canva.com/design/DAGeVAhEOX8/R44_fHFJZWhhWb371OSRoA/view?utm_content=DAGeVAhEOX8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haa13d442f7" target="_blank">🎨 探究實作報告</a>
+        <!-- 你可以繼續加其他作品 -->
+      </div>
+    </section>
+
+    <section id="reflection">
+      <h2>學習反思</h2>
+      <p>透過這些作業與活動，我學會了如何表達自己的觀點，也更懂得與他人合作。雖然過程中有挑戰，但我也從中獲得了成長，這讓我對自己的未來更加有信心。</p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 我的學習歷程｜設計風格：清新簡約 x 綠色IG風
+  </footer>
+</body>
+</html>
